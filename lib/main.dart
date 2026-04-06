@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:recipe_genie_system/screens/home_screen.dart';
+import 'package:recipe_genie_system/screens/main_nav.dart';
 import 'screens/login_screen.dart';
 
 void main() async {
@@ -25,7 +25,7 @@ class RecipeGenieApp extends StatelessWidget {
             return const Scaffold(body: Center(child: CircularProgressIndicator()));
           }
           if (snapshot.hasData) {
-            return BlankHomePage();
+            return MainNavWrapper();
           }
           return LoginScreen();
         },
