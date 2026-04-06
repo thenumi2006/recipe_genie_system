@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "172068958954",
+    "project_id": "recipesystem-12b5d",
+    "storage_bucket": "recipesystem-12b5d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172068958954:android:44d9c056db50bec8249d93",
+        "android_client_info": {
+          "package_name": "com.example.recipe_genie_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt5Hyb_2X_ucoTsnxNhFZ5GiKW6uIyYWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
