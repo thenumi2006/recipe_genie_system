@@ -212,7 +212,7 @@ class _AIRecipeGeneratorState extends State<AIRecipeGenerator> {
   bool _isLoading = false;
   String _generatedResult = "";
 
-  final String _openRouterKey = "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";
+  final String _openRouterKey = "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";
 
   Future<void> _generateRecipe() async {
     if (_ingredientsController.text.isEmpty) return;
